@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="M-UI links list" />
+    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="M-UI links list">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +56,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1c025e51143a346c5a290664b87962554628d971" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +85,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -121,7 +147,8 @@
       <workItem from="1587735677253" duration="4656000" />
       <workItem from="1587807220629" duration="346000" />
       <workItem from="1587809095671" duration="3388000" />
-      <workItem from="1587813268349" duration="3782000" />
+      <workItem from="1587813268349" duration="2394000" />
+      <workItem from="1587817647901" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="entity list">
       <created>1586180969122</created>
@@ -255,7 +282,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -278,6 +317,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="entity list" />
     <MESSAGE value="version" />
     <MESSAGE value="layout" />
@@ -309,14 +351,38 @@
     </state>
     <state x="737" y="302" width="424" height="517" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587733852170" />
     <state x="737" y="856" key="FileChooserDialogImpl/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587810031409" />
-    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog" timestamp="1587815940344">
+    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog" timestamp="1587815796826">
       <screen x="0" y="581" width="1920" height="1053" />
     </state>
-    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587815940344" />
+    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587815796826" />
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1587817732103">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817732103" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1587817732103">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.center/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817732103" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1587817732102">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.left/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817732102" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1587817732103">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.right/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817732103" />
+    <state x="0" y="581" width="1910" height="1053" key="MergeDialog" timestamp="1587817912233">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="0" y="581" width="1910" height="1053" key="MergeDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817912233" />
     <state x="843" y="235" width="224" height="580" key="RollbackChangesDialog" timestamp="1587736006140">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="843" y="235" width="224" height="580" key="RollbackChangesDialog/0.27.1920.1053/1920.0.3200.1800@0.27.1920.1053" timestamp="1587736006140" />
+    <state x="464" y="742" width="992" height="737" key="SettingsEditor" timestamp="1587817688435">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="464" y="742" width="992" height="737" key="SettingsEditor/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817688435" />
     <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587811834311">
       <screen x="0" y="581" width="1920" height="1053" />
     </state>
@@ -325,6 +391,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="439" y="138" width="1031" height="831" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1587653357343" />
+    <state x="741" y="825" width="428" height="572" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587817889536">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="741" y="825" width="428" height="572" key="git4idea.branch.GitSmartOperationDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817889536" />
     <state x="623" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1587730781901">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
