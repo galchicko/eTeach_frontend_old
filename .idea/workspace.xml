@@ -10,10 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="List of items as object">
-      <change afterPath="$PROJECT_DIR$/src/components/Material/helpers/MaterialResourceObject.js" afterDir="false" />
+    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="Append Github">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialPrintAreaCardContainer/MaterialPrintAreaCardContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialPrintAreaCardContainer/MaterialPrintAreaCardContainer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceCardContainer/MaterialResourceCardContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceCardContainer/MaterialResourceCardContainer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResorceContainer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResorceContainer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResourceContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResourceContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceListItem/MaterialResourceListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceListItem/MaterialResourceListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourcesList/MaterialResourcesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourcesList/MaterialResourcesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/helpers/MaterialResourceObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/helpers/MaterialResourceManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +68,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="D:\dataAlcarmel\eteach\code\eteach_front\node_modules\eslint" />
@@ -70,6 +81,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
@@ -132,7 +144,8 @@
       <workItem from="1587807220629" duration="346000" />
       <workItem from="1587809095671" duration="3388000" />
       <workItem from="1587813268349" duration="2394000" />
-      <workItem from="1587818759719" duration="10992000" />
+      <workItem from="1587818759719" duration="11028000" />
+      <workItem from="1587832588519" duration="10794000" />
     </task>
     <task id="LOCAL-00001" summary="entity list">
       <created>1586180969122</created>
@@ -260,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587827509984</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Append Github">
+      <created>1587830360501</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587830360501</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -335,7 +355,8 @@
     <MESSAGE value="M-UI links list" />
     <MESSAGE value="Print Area" />
     <MESSAGE value="List of items as object" />
-    <option name="LAST_COMMIT_MESSAGE" value="List of items as object" />
+    <MESSAGE value="Append Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Append Github" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587554890615">
@@ -346,6 +367,10 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="100" y="113" width="1400" height="680" key="DiffContextDialog/0.27.1600.873@0.27.1600.873" timestamp="1587554505887" />
+    <state x="628" y="890" width="654" height="442" key="EditFileWatcherDialog" timestamp="1587839118633">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="628" y="890" width="654" height="442" key="EditFileWatcherDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587839118633" />
     <state x="737" y="856" width="424" height="517" key="FileChooserDialogImpl" timestamp="1587810031409">
       <screen x="0" y="581" width="1920" height="1053" />
     </state>

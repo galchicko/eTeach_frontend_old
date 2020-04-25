@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './MaterialResourcesList.scss';
-import '../../helpers/MaterialResourceObject';
+import MaterialResourceManager from '../../helpers/MaterialResourceManager';
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import MaterialResourceListItem from "../MaterialResourceListItem/MaterialResourceListItem";
-import MaterialResource from "../../helpers/MaterialResourceObject";
+import MaterialResource from "../../helpers/MaterialResourceManager";
 
 
 class MaterialResourceList extends Component {
@@ -15,25 +15,34 @@ class MaterialResourceList extends Component {
         this.handleMaterialResourceListItemClick = this.handleMaterialResourceListItemClick.bind(this)
         this.appendGithub = this.appendGithub.bind(this);
         this.updateListItems = this.updateListItems.bind(this);
+        this.createItems = this.createItems.bind(this);
 
-        this.listItems = {};
-        this.state = {listItemsState: this.listItems};
+        this.resourceManager = new MaterialResourceManager();
+        this.state = {listItemsState: this.resourceManager};
+
+        this.handleResourceItemDelete = (resourceName) => {
+            console.log("handleResourceItemDelete");
+            this.resourceManager.removeResource(resourceName);
+            this.updateListItems()
+        }
     }
 
     updateListItems() {
-        this.setState({listItemsState: this.listItems});
+        this.setState({listItemsState: this.resourceManager});
         console.log(this.state);
     }
 
     appendGithub() {
-        this.listItems.Github = new MaterialResource(
+        this.resourceManager.addResource (
             "Github",
             "http://github.com",
             "externalLink",
             true,
             this.handleMaterialResourceListItemClick
         );
-        console.log(this.listItems.Github.url);
+//        console.log(this.listItems.Github.url);
+        console.log('appendGithub')
+        console.log(MaterialResource.Github);
         this.updateListItems();
     }
 
@@ -42,11 +51,12 @@ class MaterialResourceList extends Component {
     }
 
     createItems () {
-        let JSXItems = [];
-        for (const itemKey in this.state.listItemsState) {
-            JSXItems.push(<MaterialResourceListItem {...this.state.listItemsState[itemKey]} />)
-        }
-        return JSXItems
+        return this.resourceManager.getResourcesAsArray().map(
+            resourceProps => <MaterialResourceListItem
+                {...resourceProps}
+                handleDelete={this.handleResourceItemDelete}
+            />
+        );
     }
 
 

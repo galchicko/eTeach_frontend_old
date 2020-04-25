@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './MaterialResorceContainer.scss';
-import MaterialResourceList from "../MaterialResourcesList/MaterialResourcesList";
+import MaterialResourceCardContainer from '../MaterialResourceCardContainer/MaterialResourceCardContainer';
+import MaterialPrintAreaCardContainer from '../MaterialPrintAreaCardContainer/MaterialPrintAreaCardContainer';
 
 
 class MaterialResourceContainer extends Component {
@@ -21,25 +22,10 @@ class MaterialResourceContainer extends Component {
             <div className="TabContentContainer">
                 <div className="EntityInfoTab-pageContainer-154">
                     <div className="EntityInfoTab-outerContainer-155">
-                        <div className="EntityInfoTab-infoContainer-166">
 
-                            <div className="EntityInfoTab-infoTitleContainer-540">
-                                <div className="EntityInfoTab-infoTitle-539"><h2>Resources</h2></div>
-                            </div>
+                        <MaterialResourceCardContainer printJSXToPrintArea={this.printJSXToPrintArea} />
 
-                            <div className="EntityInfoTab-infoTable-169">
-                                <MaterialResourceList printJSXToPrintArea={this.printJSXToPrintArea} />
-                            </div>
-                        </div>
-
-                        <div className="EntityInfoTab-infoContainer-166">
-                            <div className="EntityInfoTab-infoTitleContainer-540">
-                                <div className="EntityInfoTab-infoTitle-539"><h2>Print Area</h2></div>
-                            </div>
-                            <div className="EntityInfoTab-infoTable-169">
-                                {this.state.printAreaData}
-                            </div>
-                        </div>
+                        <MaterialPrintAreaCardContainer printAreaData={this.state.printAreaData} />
                     </div>
                 </div>
             </div>
