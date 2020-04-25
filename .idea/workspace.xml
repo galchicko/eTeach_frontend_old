@@ -26,9 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="M-UI links list">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="tmp2">
       <change beforePath="$PROJECT_DIR$/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +146,7 @@
       <workItem from="1587807220629" duration="346000" />
       <workItem from="1587809095671" duration="3388000" />
       <workItem from="1587813268349" duration="2394000" />
-      <workItem from="1587817647901" duration="355000" />
+      <workItem from="1587817647901" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="entity list">
       <created>1586180969122</created>
@@ -262,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587814383350</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="tmp2">
+      <created>1587818018523</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587818018524</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tmp2">
+      <created>1587818209603</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587818209603</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -335,7 +347,8 @@
     <MESSAGE value="lessons as table" />
     <MESSAGE value="lessons as box list" />
     <MESSAGE value="M-UI links list" />
-    <option name="LAST_COMMIT_MESSAGE" value="M-UI links list" />
+    <MESSAGE value="tmp2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tmp2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587554890615">
@@ -383,10 +396,10 @@
       <screen x="0" y="581" width="1920" height="1053" />
     </state>
     <state x="464" y="742" width="992" height="737" key="SettingsEditor/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587817688435" />
-    <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587811834311">
+    <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587818038159">
       <screen x="0" y="581" width="1920" height="1053" />
     </state>
-    <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587811834311" />
+    <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587818038159" />
     <state x="439" y="138" width="1031" height="831" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587653357343">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
