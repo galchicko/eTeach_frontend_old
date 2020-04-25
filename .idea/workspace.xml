@@ -6,26 +6,18 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="M-UI links list" />
+    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="Hello World">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/MaterialComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/MaterialComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialCentralComponent/MaterialCentralComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialCentralComponent/MaterialCentralComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResourceContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResourceContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourcesList/MaterialResourcesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourcesList/MaterialResourcesList.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +47,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1au4yJqOcRSZIfCcDVgJMy5ip8L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,7 +73,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -142,6 +135,7 @@
       <workItem from="1587807220629" duration="346000" />
       <workItem from="1587809095671" duration="3388000" />
       <workItem from="1587813268349" duration="2394000" />
+      <workItem from="1587818759719" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="entity list">
       <created>1586180969122</created>
@@ -310,6 +304,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="entity list" />
     <MESSAGE value="version" />
     <MESSAGE value="layout" />
@@ -345,10 +342,30 @@
       <screen x="0" y="581" width="1920" height="1053" />
     </state>
     <state x="796" y="920" width="436" height="364" key="Github.ShareDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587815796826" />
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1587818735522">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587818735522" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1587818735522">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.center/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587818735522" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1587818735521">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.left/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587818735521" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1587818735522">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="277" key="GridCell.Tab.0.right/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587818735522" />
     <state x="843" y="235" width="224" height="580" key="RollbackChangesDialog" timestamp="1587736006140">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="843" y="235" width="224" height="580" key="RollbackChangesDialog/0.27.1920.1053/1920.0.3200.1800@0.27.1920.1053" timestamp="1587736006140" />
+    <state x="464" y="742" width="992" height="737" key="SettingsEditor" timestamp="1587818773894">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="464" y="742" width="992" height="737" key="SettingsEditor/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587818773894" />
     <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587811834311">
       <screen x="0" y="581" width="1920" height="1053" />
     </state>

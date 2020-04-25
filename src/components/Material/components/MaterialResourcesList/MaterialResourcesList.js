@@ -11,10 +11,19 @@ class MaterialResourceList extends Component {
 
         this.classes = makeStyles();
         this.handleMaterialResourceListItemClick = this.handleMaterialResourceListItemClick.bind(this)
+
+        this.state = {listItems: {
+            Google: {
+                name: "Google",
+                url: "http://google.com",
+                category: "externalLink",
+                button: true}
+            }
+        };
     }
 
     handleMaterialResourceListItemClick (listItemData) {
-        this.printJSXToPrintArea(listItemData)
+        this.props.printJSXToPrintArea(listItemData)
     }
 
     render() {
@@ -23,14 +32,17 @@ class MaterialResourceList extends Component {
                 <MaterialResourceListItem
                     name="Google"
                     button={true}
+                    handleMaterialResourceListItemClick={this.handleMaterialResourceListItemClick}
                 />
                 <MaterialResourceListItem
                     name="Amazon"
                     button={true}
+                    handleMaterialResourceListItemClick={this.handleMaterialResourceListItemClick}
                 />
                 <MaterialResourceListItem
                     name="Facebook"
                     button={true}
+                    handleMaterialResourceListItemClick={this.handleMaterialResourceListItemClick}
                 />
             </List>
         );

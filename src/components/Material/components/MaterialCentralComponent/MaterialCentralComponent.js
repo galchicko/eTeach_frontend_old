@@ -6,6 +6,8 @@ import MaterialResourceContainer from '../MaterialResourceContainer/MaterialReso
 class MaterialCentralComponent extends Component {
     constructor(props) {
         super(props);
+
+        this.printJSXToPrintArea = props.printJSXToPrintArea
     }
 
     render() {
@@ -15,7 +17,7 @@ class MaterialCentralComponent extends Component {
                     <div className="BreadcrumbComponent">Materials</div>
                 </div>
                 <div className="CentralComponent--ListView">
-                    <MaterialResourceContainer />
+                    <MaterialResourceContainer printJSXToPrintArea={this.printJSXToPrintArea} />
                 </div>
             </div>
 

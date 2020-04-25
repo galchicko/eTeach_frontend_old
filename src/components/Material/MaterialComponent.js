@@ -47,7 +47,7 @@ class MaterialComponent extends Component {
                     <MaterialResourceTowerItem title="C" href="/" />
                 </div>
                 <div className="Central">
-                    <MaterialCentralComponent />
+                    <MaterialCentralComponent printJSXToPrintArea={this.printJSXToPrintArea} />
                 </div>
                 <div className="DeviceInfo">
                     <Typography color="textPrimary">Right Sidebar</Typography>
