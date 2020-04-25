@@ -1,0 +1,65 @@
+.DeviceRow{
+  border: none !important;
+}
+.DeviceComponent {
+  border: 1px solid #D4D4D4;
+  font-size: 13px;
+  color: #000000;
+  line-height: 18px;
+  font-weight: normal;
+  background-color: #FFFFFF;
+
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  g.container {
+    transform: translate(0,-30px);
+  }
+
+  &__device-info {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 14px 12px 14px;
+
+    &__left {
+      display: flex;
+      align-items: center;
+    }
+
+    &__icon {
+      margin-right: 10px;
+      &.connected {
+        color:green;
+      }
+
+      &.not-connected {
+        color: red;
+      }
+    }
+  }
+
+  &__status {
+    display: flex;
+    align-items: center;
+
+    &--connected {
+      .DeviceComponent__status__icon {
+        background-color: #67D54E;
+      }
+    }
+
+    &__icon {
+      height: 7px;
+      width: 7px;
+      border-radius: 50%;
+      background-color: #E84049;
+    }
+    &__text {
+      margin-left: 10px;
+    }
+  }
+}

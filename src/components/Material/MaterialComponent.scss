@@ -1,0 +1,15 @@
+@import '../../index';
+
+.textClassFromScss{
+    font-color: green;
+}
+
+.Dashboard {
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: calc(100% - 64px);
+    overflow-y: auto;
+    background-color: #F8F8F8;
+    display: flex
+}

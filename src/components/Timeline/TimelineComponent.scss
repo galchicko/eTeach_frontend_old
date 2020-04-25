@@ -1,0 +1,12 @@
+.TimelineComponent {
+  margin-left: -30px;
+  margin-right: -30px;
+
+  svg {
+    transform: translate(0,-5px);
+  }
+
+  rect {
+    height: 8px;
+  }
+}

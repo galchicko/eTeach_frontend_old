@@ -1,0 +1,24 @@
+
+    .containerContent {
+        .diagnosticBtn {
+            margin-top: 10px;
+            font-size: 12px;
+            height: 32px;
+            width: 115px;
+            border: 1px solid #267FFA;
+            color: #267FFA;
+            border-radius: 16px;
+            background-color: #ffffff;
+            margin-left: 20px;
+            text-transform: none;
+            transition: background-color 0.2s;
+
+            &:hover {
+                background-color: rgba(38, 127, 250, 0.1);
+            }
+        }
+        
+        .diagnosticBtnIcon {
+            margin-right: 5px;
+        }
+    }

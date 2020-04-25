@@ -1,0 +1,66 @@
+@import "../../styles/variables";
+
+.LoginComponent {
+  font-family: $text-font-family;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__form {
+    width: 400px;
+    padding: 0 42px;
+
+    &__log-in {
+      //top: -30px;
+      //position: relative;
+    }
+
+    &__logo-container {
+      height: 240px;
+
+    }
+
+    &__logo {
+      margin-top: 140px;
+      width: 111px;
+      height: 30px;
+      margin-bottom: 70px;
+    }
+
+    &__title {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      margin-bottom: 35px;
+      text-align: left;
+    }
+
+    &__server-error {
+      color: #f44336;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    &__email {
+      margin-bottom: 20px;
+    }
+
+    &__password {
+      margin-bottom: 20px;
+    }
+
+    &__captcha {
+      margin-left: 43px;
+      margin-bottom: 20px;
+    }
+
+    &__captchaField {
+      top: -34px;
+      left: -28px;
+      width: 296px !important;
+      z-index: -10;
+    }
+  }
+}

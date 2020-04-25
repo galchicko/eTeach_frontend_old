@@ -1,0 +1,15 @@
+.EventListFilter {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  margin:  0 8px;
+
+  .close,  .actions{
+      display: flex;
+      justify-content: flex-end;
+    }
+
+  &__buttons{
+    display: flex;
+  }
+}

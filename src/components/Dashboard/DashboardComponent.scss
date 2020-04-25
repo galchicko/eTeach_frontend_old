@@ -1,0 +1,72 @@
+@import '../../index';
+
+.Dashboard {
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: calc(100% - 64px);
+    overflow-y: auto;
+    background-color: #F8F8F8;
+    display: flex;
+
+    .Card {
+        height: inherit;
+    }
+
+    .Chart {
+        margin: 32px 0;
+    }
+
+    .noEvents{
+
+            margin: 68px 0;
+
+        .noEventsIcon {
+
+        }
+        .noEventsText {
+                color: #000000;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+            margin-left: -10px;
+            margin-top: 5px;
+        }
+    }
+    .DashboardCharts {
+        margin: 10px 15px 0 15px;
+        display: flex;
+        //justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+
+        .DashboardChart {
+            margin-bottom: 10px;
+            height: 276px;
+            box-sizing: border-box;
+            width: 445px;
+            border: 1px solid #EBEBEB;
+            border-radius: 2px;
+            background-color: #FFFFFF;
+        }
+    }
+
+    .DisconnectedDevicesChart{
+        width: 320px;
+        .Card {
+            height: auto;
+        }
+    }
+
+    .DashboardMap{
+        text-align: left;
+        margin: 10px 15px 10px 0px;
+        width: 100%;
+
+        .DashboardMapTitle{
+            padding: 10px 10px;
+            font-size: 13px;
+        }
+    }
+}

@@ -1,0 +1,135 @@
+@import "../../../index";
+
+.title {
+  min-height: $device-item-height - 20;
+  line-height: $device-item-height - 20;
+  display: table;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tower-title {
+  @extend .title;
+  min-height: $device-item-height;
+  line-height: $device-item-height;
+}
+
+.basestation-title {
+  @extend .title;
+}
+
+.remote-title {
+  @extend .title;
+}
+
+
+.container{
+  color: $text-color;
+  font-family: $text-font-family;
+  font-size: $text-font-size;
+  text-align: left;
+  margin-bottom: $device-items-margin;
+}
+
+.selected {
+  width: calc(100% - 3px);
+  background-color: $gs-selected-device-background-color;
+  border-left: 3px solid $gs-selected-device-border-color;
+}
+
+.tower-container{
+  @extend .container;
+  width: $device-item-width;
+  border: 1px solid $device-item-border-color;
+  min-height: $device-item-height;
+  position: relative;
+}
+
+.deviceSearchContainer{
+  width: $device-item-width;
+  margin-bottom: 30px;
+}
+
+.status{
+  margin-right: $status-margin-right;
+  margin-left: $status-margin-left;
+  display: inline-block;
+
+  .status-icon{
+    margin-bottom: -3px;
+    max-width: 20px;
+  }
+}
+.basestation-container {
+  .status{
+    margin-right: $status-margin-right + 2;
+    margin-left: $status-margin-left + 17;
+  }
+}
+.remote-container {
+  .status{
+    margin-right: $status-margin-right + 2;
+    margin-left: $status-margin-left + 37;
+  }
+}
+
+.panel-body-expended{
+  display: block;
+}
+
+.panel-body-collapsed{
+  display:none;
+}
+
+.collapsible {
+  display: inline-block;
+  text-align: right;
+}
+.not-collapsible {
+  display:none;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.arrow-container{
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 16px;
+  padding-bottom:16px;
+  background-color: inherit;
+  cursor: pointer;
+}
+.collapse-arrow{
+  @extend .noselect;
+  box-sizing: border-box;
+  position: absolute;
+  right: 24px;
+  border: none;
+
+}
+
+.arrow-up {
+  transform: rotate(270deg)  scaleY(3);
+}
+
+.arrow-down {
+  transform: rotate(90deg)  scaleY(3);
+}
+
+
+
+.line-6 {
+  box-sizing: border-box;
+  height: 1px;
+  width: $separation-line-width;
+  margin-left: ($device-item-width - $separation-line-width)/2;
+  background-color: #D4D4D4;
+  margin-bottom: $device-items-margin;
+}

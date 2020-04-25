@@ -1,0 +1,144 @@
+@import "../../styles/variables";
+
+$text-color: #000000;
+$value-color: #5F5E5E;
+$border: 1px solid #D4D4D4;
+$table-border: 1px solid #C7C7C7;
+$cell-padding:25px;
+$form-padding:16px;
+$max-label-width:100px;
+$max-units-width:10px;
+$list-item-height:60px;
+
+$value-font-weight: 300 !important;
+$label-font-weight: 500 !important;
+.text {
+  font-family: $text-font-family;
+  color: $text-color;
+  font-size: 12px;
+  line-height: 16px;
+}
+.deviceForm {
+  @extend .text;
+  text-align: left;
+  border: $border;
+  padding:$form-padding;
+
+}
+
+.adminComponentContainer{
+  @extend .text;
+  @extend .divTable;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.adminTableTitleContainer {
+  height: 50px;
+  background-color: #F8F8F8;
+  text-align: left;
+  border-bottom:$table-border;
+}
+.adminTableTitle {
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 19px;
+  padding-left: $form-padding;
+}
+.adminDeviceListContainer{
+  @extend .divCell;
+  width:22%;
+  border:$table-border;
+  border-bottom: none;
+  border-left:none;
+}
+.adminDeviceList{
+  padding: $form-padding;
+}
+
+.adminListItem{
+  height: $list-item-height;
+  border: $border !important;
+  margin-bottom: $form-padding !important;
+}
+.adminListItemText span{
+  @extend .text;
+  font-weight: $label-font-weight;
+}
+
+.adminGraphContainer{
+  @extend .divCell;
+  width:34%;
+}
+
+.adminAddButton {
+  text-transform: none !important;
+  background-color: white !important;
+  border: $border !important;
+  height: $list-item-height;
+}
+
+.adminCloseButton{
+  float: right;
+}
+.adminAddButtonIcon {
+  height: 17px !important;
+  width: 17px !important;
+  padding-right: 10px;
+}
+.adminTableDiv{
+  @extend .divTable;
+  width: 100%;
+}
+
+.divTable {
+  display: table;
+
+}
+
+.divRow {
+  display: table-row;
+}
+
+.divCell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.adminFormLabel {
+  @extend .divCell;
+  padding-right: $cell-padding;
+  padding-bottom: $cell-padding;
+  max-width: $max-label-width;
+  width: $max-label-width;
+}
+.adminFormValue {
+  @extend .divCell;
+  color: $value-color;
+  font-size: 12px !important;
+  font-weight: $value-font-weight;
+  line-height: 16px  !important;
+}
+.adminFormUnits {
+  @extend .divCell;
+  max-width: $max-units-width;
+  width: $max-units-width;
+}
+.adminFormTitle{
+  margin-left: 0;
+  font-size: 13px !important;
+  line-height: 18px  !important;
+  font-weight: $label-font-weight;
+  padding-bottom: 18px;
+}
+.adminBtnSave {
+  border-radius: 17.5px !important;
+  text-transform: none !important;
+  height:35px;
+}
+
+.nameError {
+  margin-bottom: 15px !important;
+  margin-top: -15px !important;
+}

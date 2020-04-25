@@ -1,0 +1,40 @@
+@import '../../index';
+
+.Main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  min-height: calc(100% - 64px);
+  overflow-y: auto;
+
+  .DeviceList {
+    padding: 20px 20px 0 20px;
+    width: 290px;
+    border-right: 1px solid $gs-border-color;
+  }
+
+  .Central {
+    width: calc(100% - 550px);
+    min-height: 100%;
+    background-color: #F8F8F8;
+  }
+
+  .DeviceInfo {
+    width: 250px;
+    padding: 20px 20px 0 0;
+    border-left: 1px solid $gs-border-color;
+  }
+}
+
+.infoCollapsed {
+  .Central {
+    width: calc(100% - 360px);
+  }
+
+  .DeviceInfo {
+    width: 20px;
+    padding: 20px 5px 0 5px;
+  }
+}

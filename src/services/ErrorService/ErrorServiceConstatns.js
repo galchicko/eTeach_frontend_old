@@ -1,0 +1,9 @@
+export const UNEXPECTED_ERROR = 'UNEXPECTED_ERROR';
+
+export const HTTP_ERROR_ACTION_TYPE = 'HTTP_ERROR_ACTION_TYPE';
+
+export const ERROR_FLOWS = {
+    AUTH: 'AUTH',
+    MAIN: 'MAIN'
+};
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="46px" viewBox="0 0 65 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>3E4A0936-AE0E-4EBF-82A1-4A116E168123@4x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-225.000000, -249.000000)">
+            <g id="Group-32" transform="translate(225.000000, 249.000000)">
+                <g id="Group-31">
+                    <ellipse id="Oval" fill="#979797" cx="5.36697248" cy="6.05263158" rx="1.19266055" ry="1.21052632"></ellipse>
+                    <ellipse id="Oval-Copy-7" fill="#979797" cx="10.1376147" cy="6.05263158" rx="1.19266055" ry="1.21052632"></ellipse>
+                    <ellipse id="Oval-Copy-8" fill="#979797" cx="14.9082569" cy="6.05263158" rx="1.19266055" ry="1.21052632"></ellipse>
+                    <path d="M3.87614679,11.5 L52.1660873,11.5" id="Line-3" stroke="#979797" stroke-width="1.2" stroke-linecap="square"></path>
+                    <path d="M8.93854824,19.9736842 L27.1586511,19.9736842" id="Line-3-Copy" stroke="#E0E0E0" stroke-width="1.2" stroke-linecap="square"></path>
+                    <path d="M8.93854824,26.0263158 L44.1284404,26.0263158" id="Line-3-Copy-2" stroke="#E0E0E0" stroke-width="1.2" stroke-linecap="square"></path>
+                    <path d="M8.93854824,32.0789474 L44.1284404,32.0789474" id="Line-3-Copy-3" stroke="#E0E0E0" stroke-width="1.2" stroke-linecap="square"></path>
+                    <path d="M8.93854824,38.1315789 L44.1284404,38.1315789" id="Line-3-Copy-4" stroke="#E0E0E0" stroke-width="1.2" stroke-linecap="square"></path>
+                    <rect id="Rectangle" stroke="#979797" stroke-width="1.2" x="0.6" y="0.6" width="54.7059633" height="44.8" rx="2.4"></rect>
+                    <ellipse id="Oval" fill="#1FDA2F" cx="56.0550459" cy="30.8684211" rx="8.94495413" ry="9.07894737"></ellipse>
+                    <g id="np_check_1807530_000000" transform="translate(53.073394, 28.447368)" fill="#FFFFFF" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="0.6">
+                        <path d="M5.71083381,0.00219001986 C5.66213422,0.00915091453 5.61731375,0.0322087389 5.58327336,0.0683185193 C4.44723293,1.21770145 3.21598002,2.55252261 2.08038091,3.70892212 L0.36346713,2.2819944 C0.318215276,2.24370948 0.260035267,2.22543741 0.201418361,2.23065752 C0.142375591,2.23631333 0.08850938,2.26502652 0.0505788469,2.31070781 C0.01308521,2.35682346 -0.00458481376,2.41555671 0.00101760762,2.47472877 C0.00662013932,2.53433184 0.0354948955,2.58870924 0.0807467497,2.62656537 L1.95631121,4.18580578 C2.04422885,4.25889517 2.17222178,4.25280411 2.25281589,4.17188399 C3.43409052,2.97683759 4.7213897,1.57107099 5.89361749,0.385157284 C5.96386511,0.318593311 5.98325844,0.213306716 5.94145432,0.125866741 C5.89965019,0.0384267669 5.80612682,-0.0116137127 5.71089228,0.00230807663 L5.71083381,0.00219001986 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+.eventListContainer{
+  box-shadow: none !important;
+  background: none !important;
+  overflow-x: hidden !important;
+
+  .row-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .material-icons {
+    cursor: pointer;
+  }
+
+  .eventRow {
+    cursor: pointer;
+  }
+  
+  .textStatus{
+    font-size: 12px;
+  }
+
+  .textAttended{
+    font-size: 12px;
+  }
+}

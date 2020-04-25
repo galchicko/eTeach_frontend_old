@@ -1,0 +1,47 @@
+.EventFilters {
+  display: flex;
+  justify-content: flex-end;
+
+  &__range-filter {
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 30px;
+
+    &:hover {
+      border: 1px solid grey;
+    }
+  }
+
+  .EventFilters__range-filter{
+    border-radius: 17.5px;
+  }
+}
+
+.Date-range-picker {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__calendar {
+
+  }
+
+  .DateRangeHour{
+    transition: 0.2s;
+  }
+
+  .DateRangeActive{
+    background-color: #3C81F2;
+    color: white;
+  }
+}

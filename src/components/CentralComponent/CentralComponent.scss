@@ -1,0 +1,16 @@
+@import "../../index";
+
+.CentralComponentHeader {
+    border-bottom: 1px solid $gs-border-color;
+    padding: 0 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+}
+
+.CentralComponent{
+    .gmap-container {
+        height: calc(100vh - 122px);
+    }
+}

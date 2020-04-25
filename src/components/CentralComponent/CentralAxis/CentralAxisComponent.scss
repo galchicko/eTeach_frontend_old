@@ -1,0 +1,10 @@
+@import "../../../index";
+
+.CentralAxisComponent {
+  padding-bottom: 10px;
+
+  g.timeline-xAxis {
+    transform: translate(0,75);
+    color: $gs-time-line-axis-color;
+  }
+}

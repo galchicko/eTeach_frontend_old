@@ -1,0 +1,252 @@
+{
+  "app": {
+    "baseTitle": "LMS",
+    "allSchools": "All Schools",
+    "devices":{
+      "types":{
+        "school" : "School",
+        "teacher":"Teacher",
+        "student":"Student",
+        "workclass":"Class"
+      }
+    }
+  },
+  "buttons":{
+    "meetNow": "Meet now",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "date": {
+    "seconds": "seconds",
+    "dateFilterTitle": "Date range filter",
+    "lastHour": "Last Hour",
+    "lastDay": "Last Day",
+    "lastWeek": "Last Week",
+    "lastMonth": "Last Month",
+    "cancel": "Cancel",
+    "apply": "Apply"
+  },
+  "navigation":{
+    "hi": "Hi",
+    "region": "Region",
+    "dashboard": "DASHBOARD",
+    "material": "MATERIAL",
+    "overview": "OVERVIEW",
+    "manageTowers": "Manage Towers",
+    "manageUsers": "Manage Users",
+    "about": "About",
+    "logOut": "Log Out",
+    "search": "Search"
+  },
+  "notifications": {
+    "view": "view"
+  },
+  "infoPanel": {
+    "GeneralSubTitle": "Information",
+    "Information":"Information",
+    "Address": "Address",
+    "Students":"Students",
+    "Code": "School code",
+    "Name": "Name",
+
+    "invalidMessages": {
+      "required": "Please fill this field"
+    }
+  },
+  "assignment": {
+    "postBtn": "Post Assignment",
+    "postAssignmentWindowTitle": "Post assignment",
+    "newAssignmentWindowTitle": "Create assignment",
+    "form":{
+      "title":"Title",
+      "topic":"Topic",
+      "points":"Points",
+      "instructions":"Instructions",
+      "due":"Due",
+      "for":"For",
+      "postedAt":"Posted at",
+      "status":"Status"
+    },
+    "statuses":{
+      "workclass":{
+        "waitingForSubmissions" : "waiting for submissions",
+        "lateSubmissions":"late submissions",
+        "closed":"closed"
+      },
+      "student":{
+        "submitted":"submitted",
+        "waitingForSubmission":"waiting for submission",
+        "notSubmitted": "not submitted"
+      }
+    }
+  },
+  "lesson": {
+    "form":{
+      "title":"Title",
+      "subject":"Subject",
+      "startTime":"Start time",
+      "entTime":"End time"
+    },
+    "statuses":{
+      "attended":"attended",
+      "missed":"missed",
+      "inProcess":"in process",
+      "commingIn":"comming in",
+      "ended": "ended",
+      "days":"days",
+      "minutes":"minutes"
+    }
+  },
+  "login": {
+    "Title": "Log In",
+    "LogInButtonText": "Log In",
+    "placeholders": {
+      "Email": "Email",
+      "Password": "Password",
+      "Username": "Username"
+    },
+    "invalidMessages": {
+      "InvalidEmail": "Email is invalid",
+      "InvalidPassword": "Password is invalid",
+      "InvalidUsername": "Username is invalid",
+      "InvalidCaptcha" : "Please complete the reCaptcha check above"
+    },
+    "serverError": "Username or Password incorrect"
+  },
+  "tabs": {
+    "Commons":{
+      "EVENTS":"FOLLOW UP",
+      "LESSONS":"LESSONS",
+      "ASSIGNMENTS":"TASKS",
+      "INFORMATION":"INFORMATION"
+    },
+    "All schools": {
+      "EVENTS":"$t(tabs.Commons.EVENTS)",
+      "INFORMATION":"$t(tabs.Commons.INFORMATION)"
+    },
+    "School": {
+      "EVENTS":"$t(tabs.Commons.EVENTS)",
+      "INFORMATION":"$t(tabs.Commons.INFORMATION)"
+    },
+    "WorkClass":{
+      "EVENTS":"$t(tabs.Commons.EVENTS)",
+      "LESSONS":"$t(tabs.Commons.LESSONS)",
+      "ASSIGNMENTS":"$t(tabs.Commons.ASSIGNMENTS)",
+      "INFORMATION":"$t(tabs.Commons.INFORMATION)"
+    },
+    "Student":{
+      "EVENTS":"$t(tabs.Commons.EVENTS)",
+      "LESSONS":"$t(tabs.Commons.LESSONS)",
+      "ASSIGNMENTS":"$t(tabs.Commons.ASSIGNMENTS)",
+      "INFORMATION":"$t(tabs.Commons.INFORMATION)"
+    }
+  },
+  "users":{
+    "roles":{
+      "admin": "Admin",
+      "observer": "Observer",
+      "technician": "Technician"
+    },
+    "noRegionsWarning": "No regions were selected. Are you sure you want to continue?",
+    "noRegionsCancel": "Cancel",
+    "noRegionsYes": "Yes",
+    "allUsers":"All users",
+    "searchUsers":"Search Users...",
+    "addNew":"Add new",
+    "edit":{
+      "editUsers": "User edit",
+      "username":"Username",
+      "password":"Password",
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "email":"Email",
+      "role":"Role",
+      "accessToRegions": "Access to Regions",
+      "cancel":"cancel",
+      "save":"save changes"
+    },
+    "table":{
+      "Username":"Username",
+      "Name":"Name",
+      "Email":"Email",
+      "Role":"Role"
+
+    }
+  },
+  "events":{
+    "csvFileName": "Events",
+    "filter":{
+      "Filters":"Filters",
+      "Date":"Date",
+      "Severity":"Severity",
+      "Description":"Description",
+      "Status":"Status",
+      "cancel":"cancel",
+      "apply":"apply"
+    },
+    "table":{
+      "FullDesc": "Description",
+      "Time":"Time",
+      "Device":"Device",
+      "Type":"Type",
+      "Severity":"Severity",
+      "Description":"Description",
+      "Status":"Status"
+    },
+    "statuses":{
+      "outstanding" : "Outstanding",
+      "acknowledged":"Acknowledged",
+      "cleared":"Cleared"
+    },
+    "severity": {
+      "critical":"Critical",
+      "major":"Major",
+      "minor":"Minor",
+      "warning":"Warning",
+      "normal":"Normal"
+    }
+  },
+  "central": {
+    "list": "List",
+    "map": "Map"
+  },
+  "dashboard": {
+    "acknowledgedEvents": "Acknowledged alarms",
+    "outstandingEvents": "New alarms",
+    "mapTitle": "Region performance map",
+    "noEvents": "No events"
+  },
+  "about": {
+    "title": "FullMAX Network Management System",
+    "version": "Version"
+  },
+  "reports": {
+    "navigation": {
+      "reportType": "Report type",
+      "inventory": "Inventory",
+      "configuration": "Configuration",
+      "security": "Security",
+      "adminSecurity": "Admin",
+      "statusEvents": "Status Events",
+      "devicePerformance": "Device Performance"
+    },
+    "device": "Device",
+    "deviceName": "Device name",
+    "ipAddress": "IP Address",
+    "role": "Role",
+    "bsStation": "BS Station",
+    "remote": "Remote",
+    "type": "Type",
+    "versions": "Verstions",
+    "cbbVersion": "CBB Version",
+    "rfmVersion": "RFM Version",
+    "db2Type": "DB2 Version",
+    "macVersion": "MAC Version",
+    "phyVersion": "PHY Version",
+    "configurationVersion": "Configuration version",
+    "centerFrequency": "Center Frequency",
+    "centerFrequencyMin": "Min",
+    "centerFrequencyMax": "Max",
+    "generateExcel": "Generate Excel"
+  }
+}

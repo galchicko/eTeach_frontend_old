@@ -1,0 +1,30 @@
+.eventListContainer{
+  .row-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .material-icons {
+    cursor: pointer;
+  }
+
+  .eventRow {
+    cursor: pointer;
+  }
+  
+  .textStatus{
+    font-size: 12px;
+  }
+  
+  .cleared {
+    color: #15BD23
+  }
+  
+  .outstanding {
+    color: #E20000
+  }
+  
+  .acknowledged {
+    color: #F5A623;
+  }
+}

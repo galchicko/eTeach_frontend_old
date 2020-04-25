@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="M-UI links list" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1c025e51143a346c5a290664b87962554628d971" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1au4yJqOcRSZIfCcDVgJMy5ip8L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="D:\dataAlcarmel\eteach\code\eteach_front\node_modules\eslint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Material/components/MaterialResourceListItem" />
+      <recent name="$PROJECT_DIR$/src/components/Material/components" />
+      <recent name="$PROJECT_DIR$/src/components/MaterialResourcesList/" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/MaterialResources" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/components/Material/components/MaterialCentralContainer/MaterialCentralComponent.js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/MaterialResources/URLList" />
+      <recent name="$PROJECT_DIR$/src/components/Material" />
+      <recent name="D:\dataAlcarmel\eteach\code\eteach_front\src\components\Layout" />
+      <recent name="D:\dataAlcarmel\eteach\code\eteach_front\src\helpers" />
+      <recent name="D:\dataAlcarmel\eteach\code\eteach_front\src\components\Lessons\lessonList" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="" />
+      <created>1585073616585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585073616585</updated>
+      <workItem from="1585073617786" duration="86503000" />
+      <workItem from="1587112405208" duration="9247000" />
+      <workItem from="1587457390479" duration="10433000" />
+      <workItem from="1587572401622" duration="1424000" />
+      <workItem from="1587587614695" duration="27000" />
+      <workItem from="1587591160339" duration="862000" />
+      <workItem from="1587642301282" duration="13869000" />
+      <workItem from="1587660968691" duration="1850000" />
+      <workItem from="1587715267565" duration="10796000" />
+      <workItem from="1587735677253" duration="4656000" />
+      <workItem from="1587807220629" duration="346000" />
+      <workItem from="1587809095671" duration="3388000" />
+      <workItem from="1587813268349" duration="2394000" />
+    </task>
+    <task id="LOCAL-00001" summary="entity list">
+      <created>1586180969122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586180969122</updated>
+    </task>
+    <task id="LOCAL-00002" summary="version">
+      <created>1586184230065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586184230065</updated>
+    </task>
+    <task id="LOCAL-00003" summary="layout">
+      <created>1586186555279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586186555279</updated>
+    </task>
+    <task id="LOCAL-00004" summary="entity info">
+      <created>1586189617282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586189617282</updated>
+    </task>
+    <task id="LOCAL-00005" summary="central tab area">
+      <created>1586257248316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586257248316</updated>
+    </task>
+    <task id="LOCAL-00006" summary="school info tab">
+      <created>1586261415232</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586261415232</updated>
+    </task>
+    <task id="LOCAL-00007" summary="student and workclass info tab">
+      <created>1586273192906</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586273192906</updated>
+    </task>
+    <task id="LOCAL-00008" summary="events">
+      <created>1586620761570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586620761570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hover window options">
+      <created>1586864866196</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586864866196</updated>
+    </task>
+    <task id="LOCAL-00010" summary="full screen reusable dialog">
+      <created>1586875891611</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586875891611</updated>
+    </task>
+    <task id="LOCAL-00011" summary="post assignment to student and workclass">
+      <created>1586965328726</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586965328726</updated>
+    </task>
+    <task id="LOCAL-00012" summary="lessons">
+      <created>1587381482318</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587381482318</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lessons as table">
+      <created>1587384612349</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587384612349</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lessons as box list">
+      <created>1587466066337</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587466066338</updated>
+    </task>
+    <task id="LOCAL-00015" summary="M-UI links list">
+      <created>1587812841912</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587812841912</updated>
+    </task>
+    <task id="LOCAL-00016" summary="M-UI links list">
+      <created>1587814383349</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587814383350</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop-material" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="entity list" />
+    <MESSAGE value="version" />
+    <MESSAGE value="layout" />
+    <MESSAGE value="entity info" />
+    <MESSAGE value="central tab area" />
+    <MESSAGE value="school info tab" />
+    <MESSAGE value="student and workclass info tab" />
+    <MESSAGE value="events" />
+    <MESSAGE value="hover window options" />
+    <MESSAGE value="full screen reusable dialog" />
+    <MESSAGE value="post assignment to student and workclass" />
+    <MESSAGE value="lessons" />
+    <MESSAGE value="lessons as table" />
+    <MESSAGE value="lessons as box list" />
+    <MESSAGE value="M-UI links list" />
+    <option name="LAST_COMMIT_MESSAGE" value="M-UI links list" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="262" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587554890615">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="262" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1600.873@0.27.1600.873" timestamp="1587554890615" />
+    <state x="100" y="113" width="1400" height="680" key="DiffContextDialog" timestamp="1587554505887">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="100" y="113" width="1400" height="680" key="DiffContextDialog/0.27.1600.873@0.27.1600.873" timestamp="1587554505887" />
+    <state x="737" y="856" width="424" height="517" key="FileChooserDialogImpl" timestamp="1587810031409">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="737" y="302" width="424" height="517" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587733852170" />
+    <state x="737" y="856" key="FileChooserDialogImpl/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587810031409" />
+    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog" timestamp="1587815796826">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587815796826" />
+    <state x="843" y="235" width="224" height="580" key="RollbackChangesDialog" timestamp="1587736006140">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="843" y="235" width="224" height="580" key="RollbackChangesDialog/0.27.1920.1053/1920.0.3200.1800@0.27.1920.1053" timestamp="1587736006140" />
+    <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587811834311">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="555" y="843" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587811834311" />
+    <state x="439" y="138" width="1031" height="831" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587653357343">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="439" y="138" width="1031" height="831" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1587653357343" />
+    <state x="623" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1587730781901">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="206" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1587730781901" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	logallrefupdates = false
+[remote "origin"]
+	url = git@bitbucket.org:anastasiabakshi/eteach_frontend.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

@@ -1,0 +1,139 @@
+@import "../../../styles/variables";
+
+$text-color: #000000;
+$data-color: #5F5E5E;
+$text-left-margin:22px;
+$text-bottom-margin:8px;
+$alarm-margin-right: 8px;
+$alarm-margin-left: 5px;
+$alarm-diameter: 5px;
+$critical-alarm-color: #FB2741;
+$major-alarm-color: #F5A623;
+$minor-alarm-color: #FB2741;
+$warning-alarm-color: #FB2741;
+
+.container{
+  .collapseBtn{
+    border: none;
+    background: white;
+    box-shadow: none;
+    cursor: pointer;
+    margin-left: $text-left-margin;
+    padding: 0;
+    outline: none;
+  }
+}
+
+.infoCollapsed .container {
+
+  .containerContent {
+    display: none;
+  }
+
+  .collapseBtn{
+    margin-left: 3px;
+    transform: rotate(180deg);
+  }
+}
+
+.title {
+  font-family: $text-font-family;
+  margin-left: $text-left-margin;
+  margin-bottom: $text-bottom-margin;
+  color: $text-color;
+}
+
+
+.data {
+  @extend .title;
+  color: $data-color;
+}
+
+.mainTitle {
+  @extend .title;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.subTitle {
+  @extend .title;
+
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.divTable {
+  display: table;
+  margin-left: $text-left-margin;
+
+  .divRow {
+    display: table-row;
+  }
+  
+  .divCell {
+    padding: 5px 0; 
+    display: table-cell;
+  }
+  
+  .label{
+    @extend .data ;
+    font-size: 13px;
+    padding-right: 5px;
+  }
+  
+  .value{
+    @extend .data ;
+    font-size: 13px;
+    vertical-align: bottom;
+  }
+}
+
+.alarm{
+  height: $alarm-diameter;
+  width: $alarm-diameter;
+  margin-right: $alarm-margin-right;
+  margin-left: $alarm-margin-left;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.alarmCritical{
+  @extend .alarm;
+  background-color: $critical-alarm-color;
+}
+.alarmMajor{
+  @extend .alarm;
+  background-color: $major-alarm-color;
+}
+.alarmMinor{
+  @extend .alarm;
+  background-color: $minor-alarm-color;
+}
+.alarmWarning{
+  @extend .alarm;
+  background-color: $warning-alarm-color;
+}
+
+.alarmContainer{
+  @extend .data ;
+  line-height: 22px;
+}
+
+.eventListContainer{
+  @extend .data ;
+  line-height: 22px;
+}
+.alarmLabel{
+  display: inline;
+}
+
+.separator {
+    box-sizing: border-box;
+    height: 1px;
+    border: 1px solid #DFDFDF;
+    margin-left: 15px;
+    margin-top: 10px;
+}
