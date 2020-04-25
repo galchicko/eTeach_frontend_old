@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="M-UI links list" />
@@ -141,7 +121,7 @@
       <workItem from="1587735677253" duration="4656000" />
       <workItem from="1587807220629" duration="346000" />
       <workItem from="1587809095671" duration="3388000" />
-      <workItem from="1587813268349" duration="2394000" />
+      <workItem from="1587813268349" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="entity list">
       <created>1586180969122</created>
@@ -275,19 +255,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="develop" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -341,10 +309,10 @@
     </state>
     <state x="737" y="302" width="424" height="517" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587733852170" />
     <state x="737" y="856" key="FileChooserDialogImpl/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587810031409" />
-    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog" timestamp="1587815796826">
+    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog" timestamp="1587815940344">
       <screen x="0" y="581" width="1920" height="1053" />
     </state>
-    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587815796826" />
+    <state x="796" y="920" width="436" height="364" key="Github.ShareDialog/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587815940344" />
     <state x="843" y="235" width="224" height="580" key="RollbackChangesDialog" timestamp="1587736006140">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
