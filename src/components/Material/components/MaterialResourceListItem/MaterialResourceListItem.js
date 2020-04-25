@@ -11,16 +11,15 @@ class MaterialResourceListItem extends Component {
     constructor(props) {
         super(props);
 
-        this.name = props.name;
-        this.button = props.button;
         this.handleClick = props.handleMaterialResourceListItemClick;
 
-        if (this.button) {
+        if (this.props.button) {
             this.listItemProps = {
                 button: true,
-                onClick: () => this.handleClick(<h3><i>{this.name}</i></h3>)
+                onClick: () => this.handleClick(<h3><i>{this.props.name}</i></h3>)
             }
         } else { this.listItemProps = {} }
+        this.listItemProps.key = this.props.url;
     }
 
     render() {
@@ -28,7 +27,7 @@ class MaterialResourceListItem extends Component {
             <div className="MaterialResourceListItem">
                 <ListItem {...this.listItemProps}>
                     <ListItemIcon><LinkIcon /></ListItemIcon>
-                    <ListItemText primary={this.name} />
+                    <ListItemText primary={this.props.name} />
                 </ListItem>
             </div>
         );

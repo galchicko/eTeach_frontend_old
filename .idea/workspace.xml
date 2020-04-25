@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="Hello World">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="248e0b56-f2de-472b-a89a-ce34154ec444" name="Default" comment="Print Area">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Material/MaterialComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/MaterialComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialCentralComponent/MaterialCentralComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialCentralComponent/MaterialCentralComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResourceContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceContainer/MaterialResourceContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialCentralComponent/MaterialCentralComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialCentralComponent/MaterialCentralComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceListItem/MaterialResourceListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceListItem/MaterialResourceListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceListItem/MaterialResourceListItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourceListItem/MaterialResourceListItem.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Material/components/MaterialResourcesList/MaterialResourcesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material/components/MaterialResourcesList/MaterialResourcesList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +135,7 @@
       <workItem from="1587807220629" duration="346000" />
       <workItem from="1587809095671" duration="3388000" />
       <workItem from="1587813268349" duration="2394000" />
-      <workItem from="1587818759719" duration="2997000" />
+      <workItem from="1587818759719" duration="8138000" />
     </task>
     <task id="LOCAL-00001" summary="entity list">
       <created>1586180969122</created>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587814383350</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Print Area">
+      <created>1587822197310</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587822197311</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -322,7 +329,8 @@
     <MESSAGE value="lessons as table" />
     <MESSAGE value="lessons as box list" />
     <MESSAGE value="M-UI links list" />
-    <option name="LAST_COMMIT_MESSAGE" value="M-UI links list" />
+    <MESSAGE value="Print Area" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print Area" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587554890615">
@@ -374,6 +382,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="439" y="138" width="1031" height="831" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1587653357343" />
+    <state x="624" y="529" key="run.anything.popup" timestamp="1587826602157">
+      <screen x="0" y="581" width="1920" height="1053" />
+    </state>
+    <state x="624" y="529" key="run.anything.popup/1920.0.3200.1800/0.581.1920.1053@0.581.1920.1053" timestamp="1587826602157" />
     <state x="623" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1587730781901">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

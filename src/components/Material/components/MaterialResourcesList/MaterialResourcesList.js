@@ -11,40 +11,67 @@ class MaterialResourceList extends Component {
 
         this.classes = makeStyles();
         this.handleMaterialResourceListItemClick = this.handleMaterialResourceListItemClick.bind(this)
+        this.appendGithub = this.appendGithub.bind(this);
 
         this.state = {listItems: {
             Google: {
                 name: "Google",
                 url: "http://google.com",
                 category: "externalLink",
-                button: true}
+                button: true,
+                handleMaterialResourceListItemClick: this.handleMaterialResourceListItemClick
+            },
+            Amazon: {
+                name: "Amazon",
+                url: "http://amazpn.com",
+                category: "externalLink",
+                button: true,
+                handleMaterialResourceListItemClick: this.handleMaterialResourceListItemClick
+            },
+            Facebook: {
+                name: "Facebook",
+                url: "http://facebook.com",
+                category: "externalLink",
+                button: true,
+                handleMaterialResourceListItemClick: this.handleMaterialResourceListItemClick
             }
-        };
+        }};
+    }
+
+    appendGithub() {
+        const currentItems = this.state.listItems;
+        currentItems.Github = {
+            name: "Github",
+            url: "http://github.com",
+            category: "externalLink",
+            button: true,
+            handleMaterialResourceListItemClick: this.handleMaterialResourceListItemClick
+        }
+        this.setState({listItems: currentItems})
     }
 
     handleMaterialResourceListItemClick (listItemData) {
         this.props.printJSXToPrintArea(listItemData)
     }
 
+    createItems () {
+        let JSXItems = [];
+        for (const itemKey in this.state.listItems) {
+            JSXItems.push(<MaterialResourceListItem {...this.state.listItems[itemKey]} />)
+        }
+        return JSXItems
+    }
+
+
     render() {
         return (
-            <List className={this.classes.root}>
-                <MaterialResourceListItem
-                    name="Google"
-                    button={true}
-                    handleMaterialResourceListItemClick={this.handleMaterialResourceListItemClick}
-                />
-                <MaterialResourceListItem
-                    name="Amazon"
-                    button={true}
-                    handleMaterialResourceListItemClick={this.handleMaterialResourceListItemClick}
-                />
-                <MaterialResourceListItem
-                    name="Facebook"
-                    button={true}
-                    handleMaterialResourceListItemClick={this.handleMaterialResourceListItemClick}
-                />
-            </List>
+            <div>
+                <List className={this.classes.root}>
+                    {this.createItems()}
+                </List>
+
+                <button onClick={this.appendGithub}>Github</button>
+            </div>
         );
     }
 }
