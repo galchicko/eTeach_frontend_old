@@ -1,4 +1,5 @@
 import {combineReducers} from 'redux';
+import {reducer as formReducer} from 'redux-form';
 import {appReducer} from './appReducer';
 import EntityListReducer from '../../components/EntityList/store/reducers/entityListReducer';
 import SelectedEntity from '../../components/EntityList/store/reducers/selectedEntityReducer';
@@ -12,6 +13,7 @@ import AssignmentListFilterReducer from '../../components/AssignmentList/store/a
 import AssignmentsTableReducer from '../../components/AssignmentList/store/assignmentsReducer';
 import LessonListFilterReducer from '../../components/Lessons/store/lessonsFilterReducer';
 import LessonsTableReducer from '../../components/Lessons/store/lessonsReducer';
+import MaterialReducer from '../../components/Material/store/reducers';
 
 
 export const appReducers = combineReducers({
@@ -28,4 +30,6 @@ export const appReducers = combineReducers({
     assignmentsListFilter: AssignmentListFilterReducer,
     lessonList: LessonsTableReducer,
     lessonsListFilter: LessonListFilterReducer,
+    material: MaterialReducer,
+    form: formReducer
 });

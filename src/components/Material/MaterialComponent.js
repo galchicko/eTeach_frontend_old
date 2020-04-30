@@ -3,11 +3,12 @@ import { withStyles } from '@material-ui/core/styles';
 import './MaterialComponent.scss';
 import { withNamespaces } from 'react-i18next';
 import Typography from '@material-ui/core/Typography';
-import MaterialResourceTowerItem from './components/MaterialResourceTowerItem/MaterialResourceTowerItem';
-import MaterialResourcesList from './components/MaterialResourcesList/MaterialResourcesList';
-import MaterialResourceContainer from './components/MaterialResourceContainer/MaterialResourceContainer';
-import CentralComponent from '../CentralComponent/CentralComponent';
-import MaterialCentralComponent from "./components/MaterialCentralComponent/MaterialCentralComponent";
+//import MaterialResourceTowerItem from './components/MaterialResourceTowerItem/MaterialResourceTowerItem';
+//import MaterialResourcesList from './components/MaterialResourcesList/MaterialResourcesList';
+//import MaterialResourceContainer from './components/MaterialResourceContainer/MaterialResourceContainer';
+//import CentralComponent from '../CentralComponent/CentralComponent';
+//import MaterialCentralComponent from "./components/MaterialCentralComponent/MaterialCentralComponent";
+import MaterialCentralComponent from './components/MaterialCentralComponent';
 
 
 // added by Anastasia
@@ -41,13 +42,9 @@ class MaterialComponent extends Component {
 
         return (
             <div className="Main">
-                <div className="DeviceList">
-                    <MaterialResourceTowerItem title="A" href="/" />
-                    <MaterialResourceTowerItem title="B" href="/" />
-                    <MaterialResourceTowerItem title="C" href="/" />
-                </div>
+                <div className="DeviceList"></div>
                 <div className="Central">
-                    <MaterialCentralComponent printJSXToPrintArea={this.printJSXToPrintArea} />
+                    <MaterialCentralComponent />
                 </div>
                 <div className="DeviceInfo">
                     <Typography color="textPrimary">Right Sidebar</Typography>
